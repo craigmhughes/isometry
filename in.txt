@@ -1,0 +1,121 @@
+return [
+                world_props.Tile(world_props.grass, tile_c * 23, tile_c * -1, 0),
+                world_props.Tile(world_props.grass, tile_c * 25, tile_c * 0, 0),
+                world_props.Tile(world_props.grass, tile_c * 27, tile_c * 1, 0),
+                #
+                world_props.Tile(world_props.grass, tile_c * 19, tile_c * -1, 0),
+                world_props.Tile(world_props.grass, tile_c * 21, tile_c * 0, 0),
+                world_props.Tile(world_props.grass, tile_c * 23, tile_c * 1, 0),
+                world_props.Tile(world_props.grass, tile_c * 25, tile_c * 2, 0),
+                world_props.Tile(world_props.grass, tile_c * 27, tile_c * 2, 0),
+                #
+                world_props.Tile(world_props.grass, tile_c * 15, tile_c * -1, 0),
+                world_props.Tile(world_props.grass, tile_c * 17, tile_c * 0, 0),
+                world_props.Tile(world_props.grass, tile_c * 19, tile_c * 1, 0),
+                world_props.Tile(world_props.grass, tile_c * 21, tile_c * 2, 0),
+                world_props.Tile(world_props.grass, tile_c * 23, tile_c * 3, 0),
+                #
+                world_props.Tile(world_props.grass, tile_c * 11, tile_c * -1, 0),
+                world_props.Tile(world_props.grass, tile_c * 13, tile_c * 0, 0),
+                world_props.Tile(world_props.grass, tile_c * 15, tile_c * 1, 0),
+                world_props.Tile(world_props.grass, tile_c * 17, tile_c * 2, 0),
+                world_props.Tile(world_props.grass, tile_c * 19, tile_c * 3, 0),
+                world_props.Tile(world_props.grass, tile_c * 21, tile_c * 4, 0),
+                world_props.Tile(world_props.grass, tile_c * 23, tile_c * 5, 0),
+                #
+                world_props.Tile(world_props.beach_grass, tile_c * 5, tile_c * -2, 0),
+                world_props.Tile(world_props.beach_grass, tile_c * 7, tile_c * -1, 0),
+                world_props.Tile(world_props.beach_grass, tile_c * 9, tile_c * 0, 0),
+                world_props.Tile(world_props.beach_grass, tile_c * 11, tile_c * 1, 0),
+                world_props.Tile(world_props.beach_grass, tile_c * 13, tile_c * 2, 0),
+                world_props.Tile(world_props.beach_grass, tile_c * 15, tile_c * 3, 0),
+                world_props.Tile(world_props.beach_grass_curve_in, tile_c * 17, tile_c * 4, 0),
+                world_props.Tile(world_props.grass, tile_c * 19, tile_c * 5, 0),
+                world_props.Tile(world_props.grass, tile_c * 21, tile_c * 6, 0),
+                #
+                world_props.Tile(world_props.shallow_beach, tile_c * 1, tile_c * -2, 0),
+                world_props.Tile(world_props.shallow_beach, tile_c * 3, tile_c * -1, 0),
+                world_props.Tile(world_props.shallow_beach, tile_c * 5, tile_c * 0, 0),
+                world_props.Tile(world_props.shallow_beach, tile_c * 7, tile_c * 1, 0),
+                world_props.Tile(world_props.shallow_beach, tile_c * 9, tile_c * 2, 0),
+                world_props.Tile(world_props.shallow_beach, tile_c * 11, tile_c * 3, 0),
+                world_props.Tile(world_props.shallow_beach_curve_in, tile_c * 13, tile_c * 4, 0),
+                world_props.Tile(world_props.beach_grass, tile_c * 15, tile_c * 5, 3),
+                world_props.Tile(world_props.grass, tile_c * 17, tile_c * 6, 0),
+                world_props.Tile(world_props.grass, tile_c * 19, tile_c * 7, 0),
+                world_props.Tile(world_props.beach_grass, tile_c * 21, tile_c * 8, 1),
+                #
+                world_props.Tile(world_props.mid_water, tile_c * -1, tile_c * -1, 0),
+                world_props.Tile(world_props.mid_water, tile_c * 1, tile_c * 0, 0),
+                world_props.Tile(world_props.mid_water, tile_c * 3, tile_c * 1, 0),
+                world_props.Tile(world_props.mid_water, tile_c * 5, tile_c * 2, 0),
+                world_props.Tile(world_props.mid_water, tile_c * 7, tile_c * 3, 0),
+                world_props.Tile(world_props.mid_water_curve_in, tile_c * 9, tile_c * 4, 0),
+                world_props.Tile(world_props.shallow_beach, tile_c * 11, tile_c * 5, 3),
+                world_props.Tile(world_props.beach_grass_curve_out, tile_c * 13, tile_c * 6, 0),
+                world_props.Tile(world_props.beach_grass, tile_c * 15, tile_c * 7, 0),
+                world_props.Tile(world_props.beach_grass, tile_c * 17, tile_c * 8, 0),
+                world_props.Tile(world_props.beach_grass_curve_out, tile_c * 19, tile_c * 9, 1),
+                world_props.Tile(world_props.shallow_beach, tile_c * 21, tile_c * 10, 1),
+                #
+                world_props.Tile(world_props.water, tile_c * -5, tile_c * -1, 0),
+                world_props.Tile(world_props.water, tile_c * -3, tile_c * 0, 0),
+                world_props.Tile(world_props.water, tile_c * -1, tile_c * 1, 0),
+                world_props.Tile(world_props.water, tile_c * 1, tile_c * 2, 0),
+                world_props.Tile(world_props.water, tile_c * 3, tile_c * 3, 0),
+                world_props.Tile(world_props.water, tile_c * 5, tile_c * 4, 0),
+                world_props.Tile(world_props.mid_water, tile_c * 7, tile_c * 5, 3),
+                world_props.Tile(world_props.shallow_beach_curve_out, tile_c * 9, tile_c * 6, 0),
+                world_props.Tile(world_props.shallow_beach, tile_c * 11, tile_c * 7, 0),
+                world_props.Tile(world_props.shallow_beach, tile_c * 13, tile_c * 8, 0),
+                world_props.Tile(world_props.shallow_beach, tile_c * 15, tile_c * 9, 0),
+                world_props.Tile(world_props.shallow_beach, tile_c * 17, tile_c * 10, 0),
+                world_props.Tile(world_props.shallow_beach_curve_out, tile_c * 19, tile_c * 11, 1),
+                world_props.Tile(world_props.shallow_water, tile_c * 21, tile_c * 12, 1),
+            ]
+
+            21 17 13 9 5
+
+            # resets
+                # if ren_num == 2:
+                #     self.adj_xy(self, 21, 0)
+                # elif ren_num == 6:
+                #     self.adj_xy(self, 17, 0)
+                # elif ren_num == 12:
+                #     self.adj_xy(self, 13, 0)
+                # elif ren_num == 20:
+                #     self.adj_xy(self, 9, 0)
+                # elif ren_num == 30:
+                #     self.adj_xy(self, 5, 0)
+                # elif ren_num == 42:
+                #     self.adj_xy(self, 1, 0)
+                # elif ren_num == 56:
+                #     self.adj_xy(self, -1, 1)
+                # elif ren_num == 71:
+                #     self.adj_xy(self, -3, 2)
+                # elif ren_num == 87:
+                #     self.adj_xy(self, -3, 4)
+                # elif ren_num == 103:
+                #     self.adj_xy(self, -3, 6)
+                # elif ren_num == 119:
+                #     self.adj_xy(self, -3, 8)
+                # elif ren_num == 135:
+                #     self.adj_xy(self, -3, 10)
+                # elif ren_num == 151:
+                #     self.adj_xy(self, -3, 12)
+                # elif ren_num == 167:
+                #     self.adj_xy(self, -3, 14)
+                # elif ren_num == 185:
+                #     self.adj_xy(self, -3, 16)
+                # elif ren_num == 200:
+                #     self.adj_xy(self, -3, 18)
+                # elif ren_num == 213:
+                #     self.adj_xy(self, -3, 20)
+                # elif ren_num == 224:
+                #     self.adj_xy(self, -3, 22)
+                # elif ren_num == 233:
+                #     self.adj_xy(self, -3, 24)
+                # elif ren_num == 240:
+                #     self.adj_xy(self, -3, 26)
+                # elif ren_num == 245:
+                #     self.adj_xy(self, -3, 28)
